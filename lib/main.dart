@@ -46,7 +46,8 @@ class _DicePageState extends State<DicePage> {
               padding: const EdgeInsets.all(16.0),
               child: TextButton(
                 onPressed: () {
-                  setState(() { // onPresed change the state which here is to set the variable leftDiceNumber=4
+                  setState(() {
+                    // onPresed change the state which here is to set the variable leftDiceNumber=4
                     leftDiceNumber =
                         4; // when pressed DiceNumber value is set to 4 which becomes dice4.png
                     print("Dice Number = $leftDiceNumber");
